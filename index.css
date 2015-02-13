@@ -1,0 +1,21 @@
+
+/**
+ * Yellowhammer logo.
+ */
+
+.logo[data-logo="Yellowhammer"] {
+  width: 0;
+}
+
+.logo[data-logo="Yellowhammer"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Yellowhammer"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Yellowhammer"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
